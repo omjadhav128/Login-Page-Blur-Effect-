@@ -1,0 +1,55 @@
+*{
+
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    width: 80%;
+
+}
+.login{
+    height: 430px;
+    width: 20%;
+    border: 2px solid rgba(128, 128, 128, 0.682);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+}
+.center{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+.input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.input:focus{
+    outline: none;
+}
+.noacc{
+    text-align: center;
+}
